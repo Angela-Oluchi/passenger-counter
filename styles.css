@@ -1,0 +1,55 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(./img/train.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+}
+
+.container{
+    text-align: center;
+    padding: 10rem;    
+}
+
+button{
+    width: 200px;
+    font-weight:bolder;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+    padding: 0.5rem 1.5rem;
+    border: none;
+}
+
+#increment-btn{
+    background-color:rgb(189, 23, 23);
+    color:aliceblue;    
+   
+}
+.save-btn{
+    background-color:rgb(42, 42, 143);
+    color: aliceblue;
+    
+}
+
+#increment-btn:hover{
+    background-color:rgb(219, 38, 38);
+    color:antiquewhite;
+}
+.save-btn:hover{
+    background-color: rgb(65, 65, 196);
+    color: antiquewhite;
+}
+
+#count{
+    font-weight: bolder;
+}
+
+#entries-el{
+    font-weight: bolder;
+    color: rgb(7, 1, 34);
+}
+
+
+@media screen and (min-width: 480px) {
+  
+    }
